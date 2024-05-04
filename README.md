@@ -39,11 +39,10 @@ To run with our exact configuration, first set up a virtual machine on Google’
 
 # Explanation of Files 
 
-## requirements.txt
+### requirements.txt
 
 This file includes all packages we use for this model
 
-##
 ### DL4H_Team_104.ipynb
 This file contains the everything you might need to run CASS. It uses the brain tumor MRI dataset and contains the model configuration, training and decleration. This file is a jupyter notebook. Please run it sequentially.
 
