@@ -12,7 +12,8 @@ Stefan Wang(yifanw23@illinois.edu)
 
 # Original Github Repo
 https://github.com/pranavsinghps1/CASS
-
+# Video Explanation 
+https://www.youtube.com/watch?v=h0_fsf-evKY
 # Dateset Used
 [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset). 
 
