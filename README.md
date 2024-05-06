@@ -54,20 +54,26 @@ ports” and enter 5000 in the TCP section.
 
 This file includes all packages we use for this model
 
-### DL4H_Team_104.ipynb
+### DL4H_Team_104_final.ipynb
 This file contains the everything you might need to run CASS. It uses the brain tumor MRI dataset and contains the model configuration, training and decleration. This file is a jupyter notebook. Please run it sequentially.
 
-### cass-r50-isic.pt
+### DL4H_Team_104_Final.pdf 
+Pdf version of the jupyter notebook. 
 
-This file contains the CNN model after the CASS pretraining
+### cass-CNN-100epoch-16batch-finetune.pt
 
-### cass-r50-vit-isic.pt
+CNN model pretrain 100 epochs and finetune 50 epochs. Please load it to evualuation section to see the result.
 
-This file contains the Vit model after the CASS pretraining
+### cass-CNN-200epoch-16batch-finetune.pt
 
-### CASS-ViT-part-ft.pt
-This file contains the Vit model after fine tuning for one epoche.
+CNN model pretrain 200 epochs and finetune 50 epochs. Please load it to evualuation section to see the result.
 
-### CASS-CNN-part-ft.pt
-This file contains the CNN model after fine tuning for one epoche.
+### cass-CNN-50epoch-16batch-finetune.pt
+CNN model pretrain 50 epochs and finetune 50 epochs. Please load it to evualuation section to see the result.
+
+### testing.csv
+label pair for testing dataset. Could be generated with the code in Data section as well 
+
+###training.csv
+label pair for training dataset. Could be generated with the code in Data section as well 
 
